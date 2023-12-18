@@ -41,7 +41,7 @@ export default function Greet() {
       ))} */}
       {/* while mapping filter all colors with cakue #000000 */}
       {shades
-        .filter((shade) => shade !== "#000000")
+        .filter((shade) => shade !== "#000000" && shade !== "#FFFFFF")
         .map((shade) => (
           <div
             key={shade}
