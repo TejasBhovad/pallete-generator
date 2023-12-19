@@ -58,7 +58,9 @@
         "height": 600,
         "resizable": true,
         "title": "pallete-generator",
-        "width": 800
+        "width": 800,
+        "minHeight": 400,
+        "minWidth": 300
       }
     ]
   }
