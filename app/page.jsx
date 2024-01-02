@@ -19,6 +19,9 @@ const page = () => {
   return (
     <div className="w-full h-full">
       <div className="w-full h-full px-8 py-2 bg-gray-900 flex flex-col gap-8">
+        <h1 className="text-4xl font-bold text-center text-white">
+          Color Picker
+        </h1>
         <ColorPicker setShades={setShades} className="h-1/4 " />
         <div className="overflow-y-auto h-3/4 w-full bg-gray-800 p-4">
           {shades
